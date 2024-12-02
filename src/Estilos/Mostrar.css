@@ -1,0 +1,35 @@
+.cont_opc_estu {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.lista_productos_container {
+  width: 100%;
+}
+
+.lista_productos {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.producto_item {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  width: 80%;
+  text-align: center;
+}
+
+.producto_item a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  
+}
