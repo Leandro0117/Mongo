@@ -77,30 +77,35 @@ export default function DetallesProducto() {
                   name="nombre"
                   value={productoEditado.nombre}
                   onChange={handleChange}
+                  placeholder="Nombre"
                 />
                 <input
                   type="text"
                   name="descripcion"
                   value={productoEditado.descripcion}
                   onChange={handleChange}
+                  placeholder="Descripcción"
                 />
                 <input
                   type="number"
                   name="precio"
                   value={productoEditado.precio}
                   onChange={handleChange}
+                  placeholder="precio"
                 />
                 <input
                   type="text"
                   name="categoria"
                   value={productoEditado.categoria}
                   onChange={handleChange}
+                  placeholder="categoria"
                 />
                 <input
                   type="number"
                   name="cantidad"
                   value={productoEditado.cantidad}
                   onChange={handleChange}
+                  placeholder="Cantidad"
                 />
               </>
             ) : (
@@ -116,6 +121,9 @@ export default function DetallesProducto() {
                 </p>
                 <p>
                   <strong>Cantidad:</strong> {producto.cantidad}
+                </p>
+                <p>
+                  <strong>Descripción:</strong> {producto.descripcion}
                 </p>
               </>
             )}
